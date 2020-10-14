@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".TestLayoutActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wellcome to Android Class"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#F44336"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Please enter your Name!"
+        android:gravity="center"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:inputType="number"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"/>
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:src="@drawable/check"
+        android:background="#FFEB3B"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/mountain"
+        android:cropToPadding="true"
+        android:padding="10dp"/>
+
+
+
+
+</LinearLayout>
