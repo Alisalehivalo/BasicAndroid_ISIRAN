@@ -5,10 +5,9 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class NewKotlinClass(val context : Context) : AppCompatActivity() {
+
     fun show(){
-        Toast.makeText(context,"New Kotlin class",Toast.LENGTH_LONG).show()
+       Toast.makeText(context,"New Kotlin Class",Toast.LENGTH_LONG).show()
     }
-
-
 
 }

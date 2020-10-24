@@ -9,23 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".KotlinActivity">
+        <activity android:name=".TasActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".InActivity" />
-        <activity android:name=".TestKotlinActivity"></activity>
-        <activity android:name=".ConstraintLayoutActivity" />
-        <activity android:name=".TableLayoutActivity" />
-        <activity android:name=".Linear2Activity"></activity>
-        <activity android:name=".MainActivity2" />
-        <activity android:name=".ConstraintActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".KotlinActivity">
 
         </activity>
+        <activity android:name=".InActivity" />
+        <activity android:name=".TestKotlinActivity" />
+        <activity android:name=".ConstraintLayoutActivity" />
+        <activity android:name=".TableLayoutActivity" />
+        <activity android:name=".Linear2Activity" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".ConstraintActivity" />
+        <activity android:name=".LoginActivity" />
         <activity android:name=".TestLayoutActivity" />
         <activity android:name=".MainActivity" />
     </application>
