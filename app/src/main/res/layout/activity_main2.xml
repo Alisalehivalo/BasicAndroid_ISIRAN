@@ -56,7 +56,6 @@
         app:layout_constraintLeft_toRightOf="@id/cal"
         android:layout_marginLeft="5dp"/>
     <ImageView
-        android:id="@+id/herat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/darkheart"

@@ -1,16 +1,17 @@
 package ir.laitec.basicandroid_isiran
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
+import androidx.appcompat.app.AppCompatActivity
 import java.util.*
 
 class TasActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tas)
+
         val btnTas=findViewById<Button>(R.id.btnTas)
         val imgTas=findViewById<ImageView>(R.id.imgTas)
         btnTas.setOnClickListener(View.OnClickListener {
@@ -26,6 +27,7 @@ class TasActivity : AppCompatActivity() {
 
             }
         })
+
 
 
     }

@@ -5,7 +5,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/constrainLayout"
     tools:context=".ConstraintActivity">
     <ImageView
         android:id="@+id/imgTop"
@@ -35,8 +34,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="240dp"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginRight="50dp"
-        android:id="@+id/heart"/>
+        android:layout_marginRight="50dp" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="3dp"
@@ -60,7 +58,6 @@
         android:layout_height="0dp"
         app:layout_constraintDimensionRatio="2:1"
         android:text="Position"
-        android:id="@+id/btnCircl2"
         android:background="#FFEB3B"
         app:layout_constraintTop_toBottomOf="@+id/linear"
         app:layout_constraintLeft_toLeftOf="parent"

@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">BasicAndroid_ISIRAN</string>
-    <string name="login">Login Page</string>
-    <string name="username">UserName:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps2">Map</string>
 </resources>

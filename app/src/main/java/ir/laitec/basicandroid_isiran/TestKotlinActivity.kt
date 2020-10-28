@@ -18,11 +18,7 @@ class TestKotlinActivity : AppCompatActivity() {
 
 
         btnSend.setOnClickListener(View.OnClickListener {
-            //Toast.makeText(this,edtSender.text,Toast.LENGTH_LONG).show()
-            val i = Intent(this,InActivity::class.java)
-            i.putExtra("my",edtSender.text.toString())
-            startActivity(i)
-
+            Toast.makeText(this,edtSender.text,Toast.LENGTH_LONG).show()
 
         })
 
