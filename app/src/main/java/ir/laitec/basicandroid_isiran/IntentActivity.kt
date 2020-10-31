@@ -17,10 +17,7 @@ class IntentActivity : AppCompatActivity() {
         val btnSend=findViewById<Button>(R.id.btnSender)
         val edtFName=findViewById<EditText>(R.id.edtFName)
 
-        btnNext.setOnClickListener(View.OnClickListener {
-            val intent : Intent=Intent(this,NextActivity::class.java)
-            startActivity(intent)
-        })
+
         btnSend.setOnClickListener(View.OnClickListener {
             val i : Intent= Intent(this,NextActivity::class.java)
             val name=edtName.text.toString()
