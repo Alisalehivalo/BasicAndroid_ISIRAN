@@ -10,12 +10,13 @@ class RecycleViewActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recycle_view)
         val recycler=findViewById<RecyclerView>(R.id.recycler)
+        val recycler1=findViewById<RecyclerView>(R.id.recycler1)
         val list=generateList(50)
-
-        //val myList=generateList(100)
         val adapter=RecycleAdapter(list)
         recycler.adapter=adapter
         recycler.layoutManager=LinearLayoutManager(this,RecyclerView.HORIZONTAL,false)
+        recycler1.adapter=adapter
+        recycler1.layoutManager=LinearLayoutManager(this,RecyclerView.HORIZONTAL,true)
 
     }
     fun generateList(size : Int) : List<NewList>{
