@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:gravity="center"
-    android:layout_width="match_parent"
+    android:layout_width="150dp"
     android:id="@+id/layout"
     android:layout_height="150dp">
     <ImageView
@@ -20,11 +20,5 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:id="@+id/txtDesc"/>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="@color/red"/>
-
-
 
 </LinearLayout>

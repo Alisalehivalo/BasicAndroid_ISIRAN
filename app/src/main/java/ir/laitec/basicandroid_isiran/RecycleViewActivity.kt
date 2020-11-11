@@ -15,7 +15,7 @@ class RecycleViewActivity : AppCompatActivity() {
         //val myList=generateList(100)
         val adapter=RecycleAdapter(list)
         recycler.adapter=adapter
-        recycler.layoutManager=LinearLayoutManager(this,RecyclerView.VERTICAL,false)
+        recycler.layoutManager=LinearLayoutManager(this,RecyclerView.HORIZONTAL,false)
 
     }
     fun generateList(size : Int) : List<NewList>{
