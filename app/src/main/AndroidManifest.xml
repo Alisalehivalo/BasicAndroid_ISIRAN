@@ -14,20 +14,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DescriptActivity"></activity>
-        <activity android:name=".RecycleViewActivity">
+        <activity android:name=".SharePrefActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SharePrefencesActivity" />
+        <activity android:name=".DescriptActivity" />
+        <activity android:name=".RecycleViewActivity">
+
+        </activity>
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-3940256099942544~3347511713" />
 
-        <activity android:name=".NavigationDrawerActivity"></activity>
+        <activity android:name=".NavigationDrawerActivity" />
         <activity android:name=".ImplicitIntentActivity3" />
         <activity android:name=".SecondIntentActivity" />
         <activity android:name=".FirstIntentActivity" />
