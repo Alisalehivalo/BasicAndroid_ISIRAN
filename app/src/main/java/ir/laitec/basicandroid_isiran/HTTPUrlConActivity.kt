@@ -31,7 +31,7 @@ class HTTPUrlConActivity : AppCompatActivity() {
                     val object2=JSONObject(result1.toString())
                     val result2=object2.getString("timings")
                     val object3=JSONObject(result2.toString())
-                    val result3=object3.getString("Isha")
+                    val result3=object3.getString("Sunset")
                     println(result3)
                 }
 

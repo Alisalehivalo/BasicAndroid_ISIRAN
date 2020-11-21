@@ -14,17 +14,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HTTPUrlConActivity">
+        <activity android:name=".AssyncHTTPActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SQLiteActivity">
+        <activity android:name=".HTTPUrlConActivity">
 
         </activity>
-        <activity android:name=".SharePrefActivity"></activity>
+        <activity android:name=".SQLiteActivity"></activity>
+        <activity android:name=".SharePrefActivity" />
         <activity android:name=".SharePrefencesActivity" />
         <activity android:name=".DescriptActivity" />
         <activity android:name=".RecycleViewActivity" />
