@@ -7,6 +7,7 @@
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".Linear2Activity">
+
     <TextView
         android:id="@+id/txtSalam"
         android:layout_width="wrap_content"
